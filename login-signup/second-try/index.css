@@ -32,7 +32,6 @@ img.avatar {
   border-radius: 50%;
 }
 .modal {
-  /* background-color: black; */
   background: linear-gradient(120deg, #2980b9, #8e44ad);
   overflow: auto;
   padding-top: 60px;
