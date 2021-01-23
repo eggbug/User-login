@@ -31,6 +31,27 @@ footer {
 .social-media a:hover {
   color: #2196f3;
 }
+.social-media a {
+  background: #888;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.social-media a i:hover {
+  cursor: pointer;
+  background: #fc5c65;
+  border-radius: 4px;
+  width: 40%;
+}
+.social-media a i {
+  color: #fff;
+  /* color: #fff; */
+  padding: 10px 12px;
+  font-size: 20px;
+}
 .rights-text {
   color: #888;
   font-family: lato;
@@ -54,7 +75,7 @@ footer {
   flex: 1;
   padding: 18px 40px;
   font-size: 16px;
-  color: #fff;
+  color: black;
   background: #ddd;
   border: none;
   font-weight: 700;
@@ -102,5 +123,13 @@ footer {
     margin: 0;
     width: 100%;
     margin-top: 20px;
+  }
+}
+@media screen and (min-width: 950px) and (max-width: 2000px) {
+  .left-col {
+    margin-left: 100px;
+  }
+  .right-col {
+    margin-right: 100px;
   }
 }
